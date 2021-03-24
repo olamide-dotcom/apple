@@ -1,0 +1,165 @@
+ul { 
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0,0.8);
+    backdrop-filter: saturate(180%) blur(20px);
+}
+.link, a{
+    text-decoration: none;
+    color: #06c;
+    font-size: 20px;
+    font-family:  "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+
+}
+h4{
+    margin-bottom: 10px;
+}
+li{
+    float: left;
+}
+h4{
+    font-size: 28px !important;
+    margin-top: 0;
+    font-weight: 400 !important;
+}
+h3{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+h3, h4{
+    
+    color: #1d1d1f !important;
+    font-size: 45px;
+    font-weight: 600;
+    text-align: center;
+    font-family:  "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+.landing h3, h4{
+    color: black !important;
+}
+
+.landingheading{
+    padding-top: 40px;
+}
+.iphone12img{
+    width: 70%;
+    height: auto;
+    margin-left: auto;
+    display: block;
+    padding-top: 50px; 
+}
+.landingimg2, .airimg, .box1img, .box2img{
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.ipad{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.landing{
+    background-color: #f2f2f2;
+} 
+.landing2, .landing3{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.landing3{
+    background-color: #ffffff;
+}
+.landing3 h3{
+    color: black !important;
+}
+.landing2{
+    display: ;
+    justify-content: center;
+    background-color: black !important;
+    color: white !important;
+}
+.landing2 h4, h3{
+    color: white !important;
+}
+
+.landingimg{
+    background-image: url("/img/iphone.jpg");
+    height: 25.5rem;
+  background-position:center;
+  background-repeat: no-repeat;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+.fab{
+    font-size: 20px;
+}
+li a{
+    font-size: 15px;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;;
+}
+li a:hover{
+    background-color: rgba(0,0,0,0.8) !important;
+}
+.navigation :hover{
+    background-color: #ffffff;
+}
+.grid{
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 1%;
+    background-color: #f2f2f2 i !important ;
+}
+h1{
+    font-size: 2.75em;
+    line-height: 0;
+}
+.grid .box{
+    width: 49%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding-top: 50px;
+    overflow: hidden;
+}
+.black{
+    background-color: black !important;
+    color: white;
+}
+}
+.grid .air{
+    padding-top: 4px;
+    padding-bottom: 50px;
+    background-color: white;
+    color: black;
+}
+.grid .box .gridimg {
+    margin-top: 7%;
+    height: 303px;
+    width: 42%;
+    object-fit: cover;
+    object-position: bottom center;
+    z-index: 0;
+}
+.grid .air header{
+    margin-top: -200px;
+}
+.grid .air img{
+    width: auto;
+    height: auto;
+}
+.box2{
+    margin-top:10px ;
+}
